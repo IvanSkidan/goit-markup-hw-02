@@ -1,0 +1,69 @@
+.page {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    color: #212121;
+}
+
+/* Забираю точки в маркированому списку */
+
+.list {
+    list-style: none;
+}
+
+/* Забираю підкреслення текста у посиланях */
+
+.link {
+    text-decoration: none;
+}
+
+/* Логотип */
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
+    color: #000000;
+}
+
+.accent {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #2196F3;
+}
+
+.logo:hover, 
+.logo:focus {
+    color: #000000;
+}
+
+/* Навігація сайту */
+
+.nav-link {
+    font-family: 'Roboto';
+    font-style: 400;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #212121;
+}
+
+.nav-link:hover, 
+.nav-link:focus {
+    color: #2196F3;
+}
+
+.header-link {
+    font-family: 'Roboto';
+    font-style: 400;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
