@@ -27,9 +27,7 @@
 /* Логотип */
 
 .logo {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.19px;
     letter-spacing: 0.03em;
@@ -37,9 +35,7 @@
 }
 
 .accent {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -54,8 +50,6 @@
 /* Навігація сайту */
 
 .nav-link {
-    font-family: 'Roboto';
-    font-style: 400;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -73,8 +67,6 @@
 }
 
 .header-link {
-    font-family: 'Roboto';
-    font-style: 400;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -94,8 +86,6 @@
 }
 
 .hero-title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -105,8 +95,6 @@
 
 .hero-button {
     font-family: inherit;
-    font-style: normal;
-    font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
@@ -131,9 +119,6 @@
 }
 
 .about-title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -142,9 +127,6 @@
 }
 
 .about-text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -154,9 +136,6 @@
 /* Чим ми займаємось */
 
 .services-title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -166,9 +145,6 @@
 /* Наша команда */
 
 .team-title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -176,8 +152,6 @@
 }
 
 .team-name {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -186,9 +160,6 @@
 }
 
 .team-text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -202,19 +173,15 @@
 }
 
 .footer-logo {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.19px;
     letter-spacing: 0.03em;
-    color: var(--logo-color);
+    color: var(--secondary-color);
 }
 
 .footer-accent {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -223,15 +190,13 @@
 
 .footer-logo:hover,
 .footer-logo:focus {
-    color: var(--logo-color);
+    color: var(--secondary-color);
 }
 
 /* Контакти */
 
 .contacts-address {
-    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -244,9 +209,7 @@
 }
 
 .contacts-link {
-    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -264,13 +227,12 @@
 
 .work-button {
     font-family: inherit;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--accent-color);
+    color: var(--main-color);
     background-color: #F5F4FA;
     cursor: pointer;
 }
@@ -282,9 +244,6 @@
 }
 
 .work-title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
@@ -292,9 +251,6 @@
 }
 
 .work-text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
