@@ -1,3 +1,5 @@
+/* Оголошення змінної */
+
 :root {
     --main-color: #212121;
     --text-color: #757575;
@@ -5,6 +7,8 @@
     --secondary-color: #FFFFFF;
     --logo-color: #000000;
 }
+
+/* body */
 
 .page {
     font-family: 'Roboto', sans-serif;
@@ -23,6 +27,8 @@
 .link {
     text-decoration: none;
 }
+
+/* Шапка сторінки */
 
 /* Логотип */
 
@@ -79,6 +85,8 @@
     color: var(--accent-color);
 }
 
+/* Унікальний контент сторінки */
+
 /* Ефективні рішення для бізнесу */
 
 .hero {
@@ -95,6 +103,7 @@
 
 .hero-button {
     font-family: inherit;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
@@ -223,7 +232,9 @@
 
 /* Portfolio */
 
-/* Main. Наші роботи */
+/* Унікальний контент сторінки */
+
+/* Наші роботи */
 
 .work-button {
     font-family: inherit;
